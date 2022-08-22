@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <center>
+
+  <body>
+    <form >
+      <table>
+        <tr>
+          <td>
+            Title
+            </td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Name </td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td><input type="tel"  pattern="^[1-9]{1}[0-9]{9}"/>(optional)</td>
+
+            </tr>
+            <tr>
+              <td>Email Address</td>
+              <td><input type="email" placeholder="abc@gmail.com" /></td>
+            </tr>
+            <tr>
+              <td>Your website</td>
+              <td><input type="url"  /></td>
+            </tr>
+            <tr>
+              <td>NO of items to order </td>
+              <td><input type="number" maxlength="1" ></td>
+            </tr>
+            <tr>
+              <td>Length</td>
+              <td><input type="range" name="rangeInput" min="0" max="100" steps="10" value oninput="amount.value=rangeInput.value">1m (in 10cm increments)</td>
+            </tr>
+            <tr>
+              <td>Delivery date</td>
+              <td><input type="date" name="" value="">(minimum 16 December 2010)</td>
+            </tr>
+            <tr>
+              <td>Time of delivery</td>
+              <td><input type="number" name="" value=""></td>
+            </tr>
+            <tr>
+              <td>color of the item</td>
+              <td><input type="color" name="" value=""></td>
+            </tr>
+            <tr>
+              <br />
+              <br />
+              <center>
+              <td>
+              <input type="submit" name="submit" value="submit">
+              </td>
+                </center>
+            </tr>
+
+
+        </table>
+    </form>
+
+  </body>
+  </center>
+</html>
