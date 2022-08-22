@@ -55,15 +55,22 @@
             <tr>
               <br />
               <br />
-              <center>
-              <td>
-              <input type="submit" name="submit" value="submit">
-              </td>
-                </center>
+
             </tr>
 
 
         </table>
+        <center>
+
+        <input type="submit" name="submit" value="submit">
+
+          </center>
+          <table>
+            <tr>
+              <td>search</td>
+              <td><input type="search" name="" value=""></td>
+            </tr>
+          </table>
     </form>
 
   </body>
